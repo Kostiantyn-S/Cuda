@@ -45,9 +45,9 @@ module.exports = function(grunt) {
               files: {
                   'dist/css/style.css': [ 'src/styles/base/_reset.less',
 										'src/styles/base/_fonts.less',
-										'src/styles/base/_variables.less',
 										'src/styles/utility/utility.less',
-										'src/styles/Welcome/Welcome.less' ]
+										'src/styles/Welcome/Welcome.less',
+										'src/styles/Services/Services.less']
               }
           }
       },
