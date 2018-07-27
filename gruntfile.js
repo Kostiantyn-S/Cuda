@@ -47,7 +47,8 @@ module.exports = function(grunt) {
 										'src/styles/base/_fonts.less',
 										'src/styles/utility/utility.less',
 										'src/styles/Welcome/Welcome.less',
-										'src/styles/Services/Services.less']
+										'src/styles/Services/Services.less',
+										'src/styles/Team/Team.less']
               }
           }
       },
