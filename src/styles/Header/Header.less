@@ -1,0 +1,51 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+
+  &-logoConteiner {
+    width: 116px;
+    height: 36px;
+    padding-top: 57px;
+    padding-left: 107px;
+  }
+
+  &-logo {
+    width: 100%;
+  }
+
+  &-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 59px;
+    width: 450px;
+  }
+
+  &-navItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 78px;
+    height: 32px;
+
+    &:hover {
+      background: @Header-isActive;
+      border-radius: 3px;
+      box-sizing: border-box;
+    }
+  }
+
+  .isActive {
+    background: @Header-isActive;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+
+  &-navItemLink {
+    display: block;
+    color: @color-navItemLink;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "TitilliumWeb-Regular";
+    font-size: 16px;
+  }
+}
