@@ -3,16 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c71b3e97-5a2e-43ce-a75a-69be662f951c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Button/Button.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Button/Button.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Header/Header.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Header/Header.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Title/Title.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Title/Title.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Welcome/Welcome.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Welcome/Welcome.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_common.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_common.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/base/_variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/base/_variables.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -188,12 +178,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532784175149</updated>
-      <workItem from="1532784185288" duration="34815000" />
+      <workItem from="1532784185288" duration="35057000" />
+      <workItem from="1532875736633" duration="171000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34815000" />
+    <option name="totallyTimeSpent" value="35228000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -212,37 +203,37 @@
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info id="Grunt " order="0" sideWeight="0.5019763" side_tool="true" weight="0.171875" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50074404" side_tool="true" weight="0.3294702" />
-      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.1451876" />
       <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49925596" weight="0.3294702" />
-      <window_info anchor="bottom" id="Version Control" order="1" weight="0.14569536" />
       <window_info id="Structure" order="2" sideWeight="0.5023474" side_tool="true" weight="0.2470238" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" sideWeight="0.49926794" visible="true" weight="0.16225165" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" sideWeight="0.49926794" visible="true" weight="0.5187602" />
       <window_info id="Favorites" order="1" sideWeight="0.5023474" side_tool="true" weight="0.2470238" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="4" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" weight="0.14569536" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.49802372" visible="true" weight="0.171875" />
       <window_info id="Structure" order="2" sideWeight="0.5023474" side_tool="true" weight="0.2470238" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.123558484" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.3294702" />
-      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49926794" visible="true" weight="0.16225165" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50073206" side_tool="true" weight="0.32857144" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.14569536" />
+      <window_info anchor="bottom" id="Message" order="4" />
       <window_info id="Grunt " order="0" sideWeight="0.5019763" side_tool="true" visible="true" weight="0.171875" />
       <window_info id="Favorites" order="1" sideWeight="0.5023474" side_tool="true" weight="0.2470238" />
     </layout-to-restore>
