@@ -5,8 +5,16 @@
   align-items: center;
   margin-right: 20px;
 
+  &--marginright0 {
+    margin-right: 0;
+  }
+
   &-image {
     height: 128px;
+
+    &--team {
+      height: 200px;
+    }
   }
 
   &-title {
@@ -17,6 +25,18 @@
     font-weight: bold;
     text-transform: uppercase;
     padding-top: 48px;
+
+    &--team {
+      color: @Title-color--team;
+      padding-top: 30px;
+    }
+  }
+
+  &-subtitle {
+    font-family: "TitilliumWeb-Regular";
+    font-size: 16px;
+    color: @Card-subtitleColor;
+    text-align: center;
   }
 
   &-text {
@@ -27,5 +47,21 @@
     text-align: center;
     line-height: 1.5;
     padding-top: 13px;
+
+    &--team {
+      color: @Card-text--teamColor;
+      padding-top: 18px;
+    }
+  }
+
+  &-contacts {
+    width: 163px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 28px;
+
+    &--width {
+      width: 119px;
+    }
   }
 }
