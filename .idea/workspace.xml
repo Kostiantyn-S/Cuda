@@ -4,10 +4,15 @@
     <list default="true" id="c71b3e97-5a2e-43ce-a75a-69be662f951c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/skills/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/skills/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/skills/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/skills/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/skills/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/skills/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/icons/skills/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/images/icons/skills/4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/Card/Card.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Card/Card.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/Subtitle/Subtitle.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Subtitle/Subtitle.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/Title/Title.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Title/Title.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/base/_mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/base/_mixins.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/base/_variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/base/_variables.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index.html" afterDir="false" />
@@ -27,11 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_variables.less" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/styles/base/_variables.less">
+      <file leaf-file-name="_mixins.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/styles/base/_mixins.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="31" />
+            <state relative-caret-position="68">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -44,20 +49,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/styles/base/_mixins.less" />
         <option value="$PROJECT_DIR$/src/styles/Welcome/Welcome.less" />
         <option value="$PROJECT_DIR$/src/styles/Line/Line.less" />
         <option value="$PROJECT_DIR$/src/styles/base/_fonts.less" />
         <option value="$PROJECT_DIR$/src/styles/Header/Header.less" />
         <option value="$PROJECT_DIR$/src/styles/Button/Button.less" />
         <option value="$PROJECT_DIR$/src/styles/Services/Services.less" />
-        <option value="$PROJECT_DIR$/src/styles/_common.less" />
-        <option value="$PROJECT_DIR$/src/styles/Title/Title.less" />
-        <option value="$PROJECT_DIR$/src/styles/Subtitle/Subtitle.less" />
-        <option value="$PROJECT_DIR$/src/styles/base/_variables.less" />
-        <option value="$PROJECT_DIR$/src/styles/style.less" />
-        <option value="$PROJECT_DIR$/src/views/index.html" />
         <option value="$PROJECT_DIR$/src/styles/Team/Team.less" />
+        <option value="$PROJECT_DIR$/src/styles/style.less" />
+        <option value="$PROJECT_DIR$/src/styles/base/_mixins.less" />
+        <option value="$PROJECT_DIR$/src/styles/Title/Title.less" />
+        <option value="$PROJECT_DIR$/src/styles/base/_variables.less" />
+        <option value="$PROJECT_DIR$/src/styles/Subtitle/Subtitle.less" />
+        <option value="$PROJECT_DIR$/src/styles/Skills/Skills.less" />
+        <option value="$PROJECT_DIR$/src/styles/_common.less" />
+        <option value="$PROJECT_DIR$/src/views/index.html" />
         <option value="$PROJECT_DIR$/src/styles/Card/Card.less" />
       </list>
     </option>
@@ -147,6 +153,13 @@
               <item name="Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="Skills" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -213,12 +226,12 @@
       <workItem from="1532875736633" duration="171000" />
       <workItem from="1532933075584" duration="191000" />
       <workItem from="1532935739592" duration="1154000" />
-      <workItem from="1532939484359" duration="4932000" />
+      <workItem from="1532939484359" duration="9131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41505000" />
+    <option name="totallyTimeSpent" value="45704000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -233,15 +246,15 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.49636805" visible="true" weight="0.171875" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.49625468" visible="true" weight="0.171875" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.123558484" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info id="Grunt " order="0" sideWeight="0.50363195" side_tool="true" visible="true" weight="0.171875" />
+      <window_info id="Grunt " order="0" sideWeight="0.5037453" side_tool="true" visible="true" weight="0.171875" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50074404" side_tool="true" weight="0.3294702" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.1451876" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49925596" visible="true" weight="0.32626426" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49925596" weight="0.32626426" />
       <window_info id="Structure" order="2" sideWeight="0.5023474" side_tool="true" weight="0.2470238" />
-      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49926794" weight="0.1517129" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49926794" visible="true" weight="0.12887439" />
       <window_info id="Favorites" order="1" sideWeight="0.5023474" side_tool="true" weight="0.2470238" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -313,13 +326,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/base/_mixins.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/Button/Button.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -341,41 +347,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/_common.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/images/logo.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/Services/Services.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/base/_fonts.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="911">
-          <caret line="140" column="22" lean-forward="true" selection-start-line="140" selection-start-column="22" selection-end-line="140" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -386,13 +364,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/Title/Title.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/Line/Line.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -400,24 +371,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/Subtitle/Subtitle.less">
+    <entry file="file://$PROJECT_DIR$/src/styles/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        <state relative-caret-position="238">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/Services/Services.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="166" column="69" selection-start-line="166" selection-start-column="69" selection-end-line="166" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/Skills/Skills.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/_common.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/Card/Card.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+        <state relative-caret-position="306">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/Subtitle/Subtitle.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/Title/Title.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/base/_variables.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="31" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/base/_mixins.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
         </state>
       </provider>
     </entry>
