@@ -18,6 +18,12 @@
     justify-content: space-between;
     padding-top: 59px;
     width: 450px;
+
+    &--portfolio {
+      width: 380px;
+      margin: auto;
+      padding-top: 37px;
+    }
   }
 
   &-navItem {
@@ -32,12 +38,18 @@
       border-radius: 3px;
       box-sizing: border-box;
     }
-  }
 
-  .isActive {
-    background: @blackout;
-    border-radius: 3px;
-    box-sizing: border-box;
+    &--portfolio {
+      width: 83px;
+      height: 38px;
+      background: @blackout01;
+      border-radius: 3px;
+      box-sizing: border-box;
+
+      &:hover {
+        background: #ffffff;
+      }
+    }
   }
 
   &-navItemLink {
@@ -47,5 +59,9 @@
     text-transform: uppercase;
     font-family: "TitilliumWeb-Regular";
     font-size: 16px;
+
+    &--portfolio {
+      color: @Title-color--portfolio;
+    }
   }
 }
