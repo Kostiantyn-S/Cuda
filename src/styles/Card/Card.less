@@ -24,6 +24,10 @@
       width: 100%;
       height: auto;
     }
+
+    &--testimonials {
+      height: 96px;
+    }
   }
 
   &-title {
@@ -44,6 +48,12 @@
       color: @Title-color--team;
       padding-top: 23px;
     }
+
+    &--testimonials {
+      color: @Title--testimonials;
+      text-align: left;
+      padding-top: 19px;
+    }
   }
 
   &-subtitle {
@@ -51,6 +61,12 @@
     font-size: 16px;
     color: @Card-subtitleColor;
     text-align: center;
+
+    &--testimonials {
+      font-size: 18px;
+      color: @Card-subtitleColor--testimonials;
+      text-align: left;
+    }
   }
 
   &-text {
@@ -74,6 +90,14 @@
       color: @Subtitle-color--portfolio;
       text-transform: uppercase;
       padding-top: 25px;
+    }
+
+    &--testimonials {
+      width: 330px;
+      font-family: "TitilliumWeb-Italic";
+      font-size: 20px;
+      text-align: left;
+      padding-top: 6px;
     }
   }
 
@@ -112,5 +136,11 @@
 
   &--portfolio {
     width: 540px;
+  }
+
+  &--testimonials {
+    width: 540px;
+    flex-direction: row;
+    align-items: flex-start;
   }
 }
