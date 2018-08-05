@@ -5,8 +5,14 @@
   align-items: center;
   margin-right: 20px;
 
-  &--marginright0 {
-    margin-right: 0;
+  &--portfolio {
+    width: 540px;
+  }
+
+  &--testimonials {
+    width: 540px;
+    flex-direction: row;
+    align-items: flex-start;
   }
 
   &-image {
@@ -33,24 +39,24 @@
   &-title {
     font-family: "TitilliumWeb-Bold";
     font-size: 24px;
-    color: @Card-titleColor;
+    color: @Card-title--color;
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
     padding-top: 48px;
 
     &--team {
-      color: @Title-color--team;
+      color: @Card-titleTeam--color;
       padding-top: 30px;
     }
 
     &--skills {
-      color: @Title-color--team;
+      color: @Card-titleSkills--color;
       padding-top: 23px;
     }
 
     &--testimonials {
-      color: @Title--testimonials;
+      color: @Card-titleTestimonials--color;
       text-align: left;
       padding-top: 19px;
     }
@@ -59,12 +65,12 @@
   &-subtitle {
     font-family: "TitilliumWeb-Regular";
     font-size: 16px;
-    color: @Card-subtitleColor;
+    color: @Card-subtitle--color;
     text-align: center;
 
     &--testimonials {
       font-size: 18px;
-      color: @Card-subtitleColor--testimonials;
+      color: @Card-subtitleTestimonials--color;
       text-align: left;
     }
   }
@@ -73,13 +79,13 @@
     width: 194px;
     font-family: "TitilliumWeb-Light";
     font-size: 16px;
-    color: @Card-textColor;
+    color: @Card-text--color;
     text-align: center;
     line-height: 1.5;
     padding-top: 13px;
 
     &--team {
-      color: @Card-text--teamColor;
+      color: @Card-textTeam--color;
       padding-top: 18px;
     }
 
@@ -87,7 +93,7 @@
       width: auto;
       font-family: "TitilliumWeb-Regular";
       font-size: 18px;
-      color: @Subtitle-color--portfolio;
+      color: @Card-textPortfolio--color;
       text-transform: uppercase;
       padding-top: 25px;
     }
@@ -132,15 +138,5 @@
     &--mail {
       background-image: url('../images/icons/teamcontacts/Mailicon.png');
     }
-  }
-
-  &--portfolio {
-    width: 540px;
-  }
-
-  &--testimonials {
-    width: 540px;
-    flex-direction: row;
-    align-items: flex-start;
   }
 }

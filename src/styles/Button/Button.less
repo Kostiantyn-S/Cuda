@@ -1,27 +1,46 @@
 .Button {
+  padding-top: 50px;
+  padding-bottom: 145px;
+
+  &--portfolio {
+    padding-top: 0;
+    padding-bottom: 108px;
+  }
+
+  &--getin {
+    padding-top: 54px;
+    padding-bottom: 115px;
+  }
+}
+
+.Button-link {
   display: table;
-  background: @Button-background;
+  background: #ffffff;
   padding: 22px 80px;
   word-spacing: 4px;
   letter-spacing: 1px;
   border-radius: 4px;
-  .Welcome-buttonBorderBottom;
+  border-bottom: solid 4px @blackout;
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
   font-family: "TitilliumWeb-SemiBold";
   font-size: 16px;
   text-transform: uppercase;
-  color: @Button-color;
+  color: @Button-font--color;
   line-height: 1.455;
   text-align: center;
   text-decoration: none;
   margin: 0 auto;
 
+  &--welcome {
+    background: @Button-welcome--background;
+  }
+
   &--portfolio {
-    background: @Button-background--portfolio;
+    background: @Button-portfolio--background;
   }
 
   &--getin {
-    background: @Button-background--getin;
+    background: @Button-getin--background;
   }
 }
